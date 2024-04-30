@@ -25,4 +25,10 @@ class PageController extends Controller
     {
         return "This is a function of Hidden_fun";
     }
+
+
+    public function Check_fun()
+    {
+        return "This is a function of Check_fun";
+    }
 }

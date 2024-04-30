@@ -25,3 +25,5 @@ Route::controller(PageController::class)->group(function()
 Route::get('/test',TestingController::class);
 
 Route::get('/hide',[PageController::class,'hidden_fun']);
+
+Route::get('/CHeck',[PageController::class,'Check_fun']);
