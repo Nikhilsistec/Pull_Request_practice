@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view('welcome');
     }
+
+    public function hidden_fun()
+    {
+        return "This is a function of Hidden_fun";
+    }
 }
