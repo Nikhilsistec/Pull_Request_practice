@@ -31,4 +31,9 @@ class PageController extends Controller
     {
         return "This is a function of Check_fun";
     }
+
+    public function Data_Testing()
+    {
+        return "<h1>This is a function of Data_Testing</h1>";
+    }
 }
