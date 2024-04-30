@@ -36,4 +36,9 @@ class PageController extends Controller
     {
         return "<h1>This is a function of Data_Testing</h1>";
     }
+
+    public function SumNumber()
+    {
+        return "<h1>This is a function of sum of numbers</h1>";
+    }
 }
